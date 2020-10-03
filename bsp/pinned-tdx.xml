@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote alias="repo" fetch="https://git.toradex.com" name="tdx"/>
-  <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="tdx" revision="51927b354280c398b11b7b6bd64c1617825f17d1" upstream="dunfell-5.x.y"/>
-  <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="tdx" revision="fddb6cc10a1df717cc77b6958ce5e233cef9a80a" upstream="dunfell-5.x.y"/>
+  <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="tdx" revision="3d1731f91dcff78bdbd0abcb978436d25280b8f1" upstream="dunfell-5.x.y"/>
+  <project name="meta-toradex-nxp.git" path="layers/meta-toradex-nxp" remote="tdx" revision="dfc32e8e8c79a043a8c75629f146ff1a337c78fc" upstream="dunfell-5.x.y"/>
   <project name="meta-toradex-tegra.git" path="layers/meta-toradex-tegra" remote="tdx" revision="962b01390fdc261b5f86921231792daa8f6af043" upstream="dunfell-5.x.y"/>
 </manifest>
