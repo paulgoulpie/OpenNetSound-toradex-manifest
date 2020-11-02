@@ -8,7 +8,7 @@
 
   <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="0e7015f7a86dda995a39662edbb5c26da647c496" upstream="dunfell"/>
   <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="tdx" revision="159cd97597e2c03ccc0dfbd34c4cb6e755675b5d" upstream="dunfell-5.x.y"/>
-  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="fca518708b87e3e961c4252b7e9ab7529d858789" upstream="dunfell-5.x.y">
+  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="27000bd0282b681ab083430b5e49d81e42ce1f71" upstream="dunfell-5.x.y">
     <copyfile dest="export" src="buildconf/export"/>
   </project>
 </manifest>
