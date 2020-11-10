@@ -8,7 +8,7 @@
   <remote fetch="https://github.com/toradex" name="toradex-torizon"/>
   <remote fetch="https://github.com/foundriesio" name="foundriesio"/>
 
-  <project name="meta-lmp" path="layers/meta-lmp" remote="foundriesio" revision="7c8e56e9c18206f8cbf2805d4ae41bf04ad010df"/>
+  <project name="meta-lmp" path="layers/meta-lmp" remote="foundriesio" revision="4bc19dd07a748301bbd8314f454c35a6ceb77880"/>
   <project name="meta-security" path="layers/meta-security" remote="yocto" revision="982a29bbb7ef32475aea7c4bb56c620065a50927"/>
   <project name="meta-updater" path="layers/meta-updater" remote="ats" revision="a491e477e318e7a551d7efcefb42b042650679ca"/>
   <project name="meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="ff997b6b3ba800978546098ab3cdaa113b6695e1"/>
