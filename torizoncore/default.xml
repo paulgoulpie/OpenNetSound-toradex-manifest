@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <include name="base/pinned.xml" />
-  <include name="bsp/pinned-nxp.xml" />
-  <include name="bsp/pinned-tdx.xml" />
+  <include name="base/pinned.xml"/>
+  <include name="bsp/pinned-nxp.xml"/>
+  <include name="bsp/pinned-tdx.xml"/>
 
   <remote fetch="https://github.com/advancedtelematic" name="ats"/>
   <remote fetch="https://github.com/toradex" name="toradex-torizon"/>
   <remote fetch="https://github.com/foundriesio" name="foundriesio"/>
 
   <project name="meta-lmp" path="layers/meta-lmp" remote="foundriesio" revision="4bc19dd07a748301bbd8314f454c35a6ceb77880"/>
-  <project name="meta-security" path="layers/meta-security" remote="yocto" revision="982a29bbb7ef32475aea7c4bb56c620065a50927"/>
-  <project name="meta-updater" path="layers/meta-updater" remote="ats" revision="a491e477e318e7a551d7efcefb42b042650679ca"/>
+  <project name="meta-security" path="layers/meta-security" remote="yocto" revision="c74cc97641fd93e0e7a4383255e9a0ab3deaf9d7"/>
+  <project name="meta-updater" path="layers/meta-updater" remote="ats" revision="cc1b38310f4ebd0558438057a1edfeb4a3555b16"/>
   <project name="meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="ff997b6b3ba800978546098ab3cdaa113b6695e1"/>
-  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="27000bd0282b681ab083430b5e49d81e42ce1f71"/>
-  <project name="meta-toradex-torizon" path="layers/meta-toradex-torizon" remote="toradex-torizon" revision="ae99e660170047f02e67960c77290769e1bda087">
+  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="48913ab629a231913e3e147e93e57f7cf6019ac6"/>
+  <project name="meta-toradex-torizon" path="layers/meta-toradex-torizon" remote="toradex-torizon" revision="c7f0195948f9290ca1cd4f76c77a11d8078329a5">
     <linkfile dest="setup-environment" src="scripts/setup-environment"/>
   </project>
 </manifest>
