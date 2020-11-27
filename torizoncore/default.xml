@@ -4,9 +4,9 @@
   <include name="bsp/pinned-nxp.xml"/>
   <include name="bsp/pinned-tdx.xml"/>
 
-  <remote fetch="https://github.com/advancedtelematic" name="ats"/>
-  <remote fetch="https://github.com/toradex" name="toradex-torizon"/>
-  <remote fetch="https://github.com/foundriesio" name="foundriesio"/>
+  <remote alias="repo" fetch="https://github.com/advancedtelematic" name="ats"/>
+  <remote alias="repo" fetch="https://github.com/toradex" name="toradex-torizon"/>
+  <remote alias="repo" fetch="https://github.com/foundriesio" name="foundriesio"/>
 
   <project name="meta-lmp" path="layers/meta-lmp" remote="foundriesio" revision="4bc19dd07a748301bbd8314f454c35a6ceb77880"/>
   <project name="meta-security" path="layers/meta-security" remote="yocto" revision="c74cc97641fd93e0e7a4383255e9a0ab3deaf9d7"/>

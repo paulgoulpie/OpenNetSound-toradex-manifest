@@ -4,9 +4,9 @@
   <include name="bsp/integration-nxp.xml" />
   <include name="bsp/integration-tdx.xml" />
 
-  <remote fetch="https://github.com/advancedtelematic" name="ats"/>
-  <remote fetch="https://github.com/toradex" name="toradex-torizon"/>
-  <remote fetch="https://github.com/foundriesio" name="foundriesio"/>
+  <remote alias="repo" fetch="https://github.com/advancedtelematic" name="ats"/>
+  <remote alias="repo" fetch="https://github.com/toradex" name="toradex-torizon"/>
+  <remote alias="repo" fetch="https://github.com/foundriesio" name="foundriesio"/>
 
   <project name="meta-lmp" path="layers/meta-lmp" remote="foundriesio" revision="dunfell"/>
   <project name="meta-security" path="layers/meta-security" remote="yocto" revision="dunfell"/>
