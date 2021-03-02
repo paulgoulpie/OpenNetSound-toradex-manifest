@@ -1,0 +1,35 @@
+variables:
+# uncomment for the pipeline debug purpose
+# CI_DEBUG_TRACE: "true"
+  CI_IMAGE: gitlab.int.toradex.com:4567/oleksandr.suvorov/ci-toolchain-container:linux-kernel-builder
+  DOCKER_HOST: tcp://docker:2375
+  DOCKER_DRIVER: overlay2
+  DOCKER_TLS_CERTDIR: ""
+
+stages:
+  - build
+
+repo-sync:
+  stage: build
+  image: $CI_IMAGE
+  variables:
+    GIT_STRATEGY: clone
+  script:
+    - ORIGIN=$(git remote get-url origin)
+    - mkdir -p ../bin
+    - wget -O ../bin/repo http://commondatastorage.googleapis.com/git-repo-downloads/repo
+    - chmod a+x ../bin/repo
+    - mkdir -p ../workspace
+    - cd ../workspace
+    - ../bin/repo init -u $ORIGIN -b $CI_COMMIT_BRANCH -m tdxref/default.xml
+    - ../bin/repo sync
+    - ../bin/repo init -u $ORIGIN -b $CI_COMMIT_BRANCH -m tdxref/integration.xml
+    - ../bin/repo sync
+    - ../bin/repo init -u $ORIGIN -b $CI_COMMIT_BRANCH -m tdxref/next.xml
+    - ../bin/repo sync
+    - ../bin/repo init -u $ORIGIN -b $CI_COMMIT_BRANCH -m torizoncore/default.xml
+    - ../bin/repo sync
+    - ../bin/repo init -u $ORIGIN -b $CI_COMMIT_BRANCH -m torizoncore/integration.xml
+    - ../bin/repo sync
+    - ../bin/repo init -u $ORIGIN -b $CI_COMMIT_BRANCH -m torizoncore/next.xml
+    - ../bin/repo sync
