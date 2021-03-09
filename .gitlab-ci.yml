@@ -10,6 +10,11 @@ stages:
   - build
 
 repo-sync:
+  rules:
+# Don't run the job when tagging, it fails as $CI_COMMIT_BRANCH is not set
+# https://gitlab.com/gitlab-org/gitlab-foss/-/issues/7184
+# https://docs.gitlab.com/ee/ci/yaml/README.html#rules
+    - if: '$CI_COMMIT_BRANCH != null'
   stage: build
   image: $CI_IMAGE
   variables:
