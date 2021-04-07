@@ -22,7 +22,7 @@ repo-sync:
   script:
     - ORIGIN=$(git remote get-url origin)
     - mkdir -p ../bin
-    - wget -O ../bin/repo http://commondatastorage.googleapis.com/git-repo-downloads/repo
+    - wget -O ../bin/repo https://commondatastorage.googleapis.com/git-repo-downloads/repo
     - chmod a+x ../bin/repo
     - mkdir -p ../workspace
     - cd ../workspace
