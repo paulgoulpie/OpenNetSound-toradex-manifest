@@ -9,7 +9,7 @@
   <remote alias="repo" fetch="https://github.com/foundriesio" name="foundriesio"/>
 
   <project name="meta-lmp" path="layers/meta-lmp" remote="foundriesio" revision="4bc19dd07a748301bbd8314f454c35a6ceb77880"/>
-  <project name="meta-security" path="layers/meta-security" remote="yocto" revision="c74cc97641fd93e0e7a4383255e9a0ab3deaf9d7"/>
+  <project name="meta-security" path="layers/meta-security" remote="yocto" revision="93232ae6d52b0d1968aa0ce69fa745e85e3bbc6b"/>
   <project name="meta-updater" path="layers/meta-updater" remote="ats" revision="b1bb00f4b645e7ab5cf6af4a6579df8b0f24e079"/>
   <project name="meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="92cd3467502bd27b98a76862ca6525ce425a8479"/>
   <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="632db61f177acf18df79d40fefdf1c662c6233a8"/>
