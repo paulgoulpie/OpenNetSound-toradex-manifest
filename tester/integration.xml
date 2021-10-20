@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="base/pinned.xml" />
+  <include name="bsp/pinned-nxp.xml" />
+  <include name="bsp/integration-tdx.xml" />
+
+  <remote alias="repo" fetch="http://gitlab.toradex.int/som-fct" name="trdx-int"/>
+
+  <project name="meta-toradex-tester.git" path="layers/meta-toradex-tester" remote="trdx-int" revision="dunfell-5.x.y">
+    <copyfile dest="export" src="buildconf/export"/>
+  </project>
+</manifest>
