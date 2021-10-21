@@ -6,7 +6,7 @@
 
   <remote alias="repo" fetch="http://gitlab.toradex.int/som-fct" name="trdx-int"/>
 
-  <project name="meta-toradex-tester.git" path="layers/meta-toradex-tester" remote="trdx-int" revision="55b54ba89436d30da031c0d390c0b003ed6b48cd" upstream="dunfell-5.x.y">
+  <project name="meta-toradex-tester.git" path="layers/meta-toradex-tester" remote="trdx-int" revision="2767d22ea6fa06fdee19ddaab35f56a12dc9e804" upstream="dunfell-5.x.y">
     <copyfile dest="export" src="buildconf/export"/>
   </project>
 </manifest>
