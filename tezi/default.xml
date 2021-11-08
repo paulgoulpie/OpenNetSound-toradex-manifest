@@ -9,8 +9,8 @@
 
   <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="b4d24d70aca75791902df5cd59a4f4a54aa4a125" upstream="dunfell"/>
   <!-- meta-toradex-distro is used for bumpSRCREV -->
-  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="b78d9de8e585f5071f62bab7362c8e69affe4102"/>
-  <project dest-branch="dunfell-5.x.y" name="meta-toradex-tezi.git" path="layers/meta-toradex-tezi" remote="githt" revision="8b4ad2083f26ec661c1738f8a35daed5a7d7044d" upstream="dunfell-5.x.y">
+  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="3f6705ce88f7a8dd1f026334743d6b6bf8747965"/>
+  <project dest-branch="dunfell-5.x.y" name="meta-toradex-tezi.git" path="layers/meta-toradex-tezi" remote="githt" revision="45bbe65ce36bb3a15a20f40b5001f78f472e4df4" upstream="dunfell-5.x.y">
     <copyfile dest="export" src="buildconf/export"/>
   </project>
 </manifest>

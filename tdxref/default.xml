@@ -7,8 +7,8 @@
   <include name="bsp/pinned-tdx.xml"/>
 
   <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="b4d24d70aca75791902df5cd59a4f4a54aa4a125" upstream="dunfell"/>
-  <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="tdx" revision="c369af47314e1b1e1776dcfa0cee1befc73fd044" upstream="dunfell-5.x.y"/>
-  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="b78d9de8e585f5071f62bab7362c8e69affe4102" upstream="dunfell-5.x.y">
+  <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="tdx" revision="eeaa1fa0f22496a84d42c2b54e4ae23b567b07f2" upstream="dunfell-5.x.y"/>
+  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="3f6705ce88f7a8dd1f026334743d6b6bf8747965" upstream="dunfell-5.x.y">
     <copyfile dest="export" src="buildconf/export"/>
   </project>
 </manifest>
