@@ -11,9 +11,9 @@
   <project name="meta-lmp" path="layers/meta-lmp" remote="foundriesio" revision="f838fe62de6da3bc3583613d1a3659e219ff6f72"/>
   <project name="meta-security" path="layers/meta-security" remote="yocto" revision="b76698c788cb8ca632077a972031899ef15025d6"/>
   <project name="meta-updater" path="layers/meta-updater" remote="ats" revision="5d49b28570ed030924ed5d45fbced24d3cb6e588"/>
-  <project name="meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="180241e0eee718fc52c7b6b25dbd1d845a8047c4"/>
-  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="e835edf3bc368fc6beb64acefa96a349ec6da281"/>
-  <project name="meta-toradex-torizon" path="layers/meta-toradex-torizon" remote="toradex-torizon" revision="ac563b7192f9cc3684958aad18a7a3a52c5a0d21">
+  <project name="meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="c4f156fa93b37b2428e09ae22dbd7f5875606f4d"/>
+  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="432c37ce55d3d5c03bd67d17348d1e667070f661"/>
+  <project name="meta-toradex-torizon" path="layers/meta-toradex-torizon" remote="toradex-torizon" revision="3f4ec963ea7cdb7e93e5949d664f65168e9bc09e">
     <linkfile dest="setup-environment" src="scripts/setup-environment"/>
   </project>
 </manifest>
