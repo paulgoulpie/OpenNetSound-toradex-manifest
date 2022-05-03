@@ -7,7 +7,7 @@
   <include name="bsp/pinned-nxp.xml"/>
   <include name="bsp/integration-tdx.xml"/>
 
-  <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="b4d24d70aca75791902df5cd59a4f4a54aa4a125" upstream="dunfell"/>
+  <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="5ef3a0ffd3324937252790266e2b2e64d33ef34f" upstream="dunfell"/>
   <!-- meta-toradex-distro is used for bumpSRCREV -->
   <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="dunfell-5.x.y"/>
   <project name="meta-toradex-tezi.git" path="layers/meta-toradex-tezi" remote="githt" revision="dunfell-5.x.y">
