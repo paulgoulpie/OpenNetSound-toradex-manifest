@@ -6,9 +6,7 @@
 
   <remote alias="repo" fetch="https://github.com/advancedtelematic" name="ats"/>
   <remote alias="repo" fetch="https://github.com/toradex" name="toradex-torizon"/>
-  <remote alias="repo" fetch="https://github.com/foundriesio" name="foundriesio"/>
 
-  <project name="meta-lmp" path="layers/meta-lmp" remote="foundriesio" revision="030bf03654bc6ff4b574b575650318a56ba8665a"/>
   <project name="meta-security" path="layers/meta-security" remote="yocto" revision="b76698c788cb8ca632077a972031899ef15025d6"/>
   <project name="meta-updater" path="layers/meta-updater" remote="ats" revision="ffb3fb6e4e16e0f0087bb951a761321a2cefeada"/>
   <project name="meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="c4f156fa93b37b2428e09ae22dbd7f5875606f4d"/>
