@@ -18,6 +18,6 @@
   <project name="meta-toradex-tezi.git" path="layers/meta-toradex-tezi" remote="githt" revision="dunfell-5.x.y"/>
 
   <project name="meta-toradex-tester-control.git" path="layers/meta-toradex-tester-control" remote="trdx-int" revision="dunfell-5.x.y">
-    <copyfile dest="export" src="buildconf/export"/>
+    <copyfile dest="export_control_image" src="buildconf/export"/>
   </project>
 </manifest>
