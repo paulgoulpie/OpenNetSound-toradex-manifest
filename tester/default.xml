@@ -17,7 +17,7 @@
   <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="a991a45459b7f3c0870ef94da6e48c279eaa97f0" upstream="dunfell-5.x.y"/>
   <project dest-branch="dunfell-5.x.y" name="meta-toradex-tezi.git" path="layers/meta-toradex-tezi" remote="githt" revision="5967d772d686789e5ad95ab913870a9d1f8ff1a5" upstream="dunfell-5.x.y"/>
 
-  <project name="meta-toradex-tester-control.git" path="layers/meta-toradex-tester-control" remote="trdx-int" revision="e91f321cfffc0a6ac9075f3b59f87ac9e04ae4ff" upstream="dunfell-5.x.y">
+  <project name="meta-toradex-tester-control.git" path="layers/meta-toradex-tester-control" remote="trdx-int" revision="ec7c92c3728c6805e9b7de5abb257a2b3cca37ef" upstream="dunfell-5.x.y">
     <copyfile dest="export_control_image" src="buildconf/export"/>
   </project>
 </manifest>
