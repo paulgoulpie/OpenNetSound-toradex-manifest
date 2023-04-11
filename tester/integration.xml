@@ -17,7 +17,7 @@
     <copyfile dest="export" src="buildconf/export"/>
   </project>
 
-  <project name="meta-toradex-tester-control.git" path="layers/meta-toradex-tester-control" remote="tdx-int" revision="dunfell-5.x.y">
-    <copyfile dest="export_control_image" src="buildconf/export"/>
+  <project name="meta-toradex-somfctcm.git" path="layers/meta-toradex-somfctcm" remote="tdx-int" revision="dunfell-5.x.y">
+    <copyfile dest="export_somfctcm" src="buildconf/export"/>
   </project>
 </manifest>
