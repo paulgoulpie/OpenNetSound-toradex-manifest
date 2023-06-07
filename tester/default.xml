@@ -13,7 +13,7 @@
   <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="53f241006b8cf69c31c22ce27e837261156ddae8" upstream="dunfell-5.x.y"/>
   <project dest-branch="dunfell-5.x.y" name="meta-toradex-tezi.git" path="layers/meta-toradex-tezi" remote="githt" revision="36db0dacbab58bd2ca2a228ec51edf2ad1b13269" upstream="dunfell-5.x.y"/>
 
-  <project name="meta-toradex-somfctdut.git" path="layers/meta-toradex-somfctdut" remote="tdx-int" revision="37758ed98161bb0e7871086db16aa9e525fc1c63" upstream="dunfell-5.x.y">
+  <project name="meta-toradex-somfctdut.git" path="layers/meta-toradex-somfctdut" remote="tdx-int" revision="8c0ab3b2c6c2dada6495d82dc964ea6b878a366c" upstream="dunfell-5.x.y">
     <copyfile dest="export_somfctdut" src="buildconf/export"/>
   </project>
 
