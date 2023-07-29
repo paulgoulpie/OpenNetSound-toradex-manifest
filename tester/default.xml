@@ -10,7 +10,7 @@
 
   <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="5ef3a0ffd3324937252790266e2b2e64d33ef34f" upstream="dunfell"/>
   <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="tdx" revision="8ffadb517be04a0b19ef1f5d5299a8c581f87383" upstream="dunfell-5.x.y"/>
-  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="53f241006b8cf69c31c22ce27e837261156ddae8" upstream="dunfell-5.x.y"/>
+  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="9899177291cf6dbe1cd92d9ae25059bb9d9a1f0f" upstream="dunfell-5.x.y"/>
   <project dest-branch="dunfell-5.x.y" name="meta-toradex-tezi.git" path="layers/meta-toradex-tezi" remote="githt" revision="d2cdc6e816f0385c6be93d7a5af19c20165c6a8d" upstream="dunfell-5.x.y"/>
 
   <project name="meta-toradex-somfctdut.git" path="layers/meta-toradex-somfctdut" remote="tdx-int" revision="aa8817c21739bdf34b501fbb21d4ef092bfc01a4" upstream="dunfell-5.x.y">
