@@ -17,7 +17,7 @@
     <copyfile dest="export_somfctdut" src="buildconf/export"/>
   </project>
 
-  <project name="meta-toradex-somfctcm.git" path="layers/meta-toradex-somfctcm" remote="tdx-int" revision="eec020b209f36bf11985acc53f992ad269e0a60f" upstream="dunfell-5.x.y">
+  <project name="meta-toradex-somfctcm.git" path="layers/meta-toradex-somfctcm" remote="tdx-int" revision="1ee5163ea44094639b81c12718600939486a491c" upstream="dunfell-5.x.y">
     <copyfile dest="export_somfctcm" src="buildconf/export"/>
   </project>
 </manifest>
