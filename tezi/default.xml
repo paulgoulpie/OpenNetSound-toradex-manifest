@@ -8,10 +8,10 @@
   <include name="bsp/pinned-ti.xml"/>
   <include name="bsp/pinned-tdx.xml"/>
 
-  <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="ae8a97f79364bed1abc297636f7933d0e35f22be" upstream="kirkstone"/>
+  <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="fe0bf7f0e5408aac6cc89ff3b19b1b1941df4f64" upstream="kirkstone"/>
   <!-- meta-toradex-distro is used for bumpSRCREV -->
-  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="946425761f7aa044dd3721c0ef604490814be1aa" upstream="kirkstone-6.x.y"/>
-  <project name="meta-toradex-tezi.git" path="layers/meta-toradex-tezi" remote="githt" revision="7ed7c8208077a47faaecf36d20b77b52c7fd013e" upstream="kirkstone-6.x.y">
+  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="749f9fc6c4ef45243fa649ce97a2e2cde254993a" upstream="kirkstone-6.x.y"/>
+  <project name="meta-toradex-tezi.git" path="layers/meta-toradex-tezi" remote="githt" revision="c737b8d9ff93aa08aadd3434b6cb917fd0d22807" upstream="kirkstone-6.x.y">
     <copyfile dest="export" src="buildconf/export"/>
   </project>
 </manifest>
