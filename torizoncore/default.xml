@@ -5,13 +5,13 @@
   <include name="bsp/pinned-tdx.xml"/>
 
   <remote alias="repo" fetch="https://github.com/uptane" name="uptane"/>
-  <remote alias="repo" fetch="https://github.com/toradex" name="toradex-torizon"/>
+  <remote alias="repo" fetch="https://github.com/torizon" name="torizon"/>
 
   <project name="meta-security" path="layers/meta-security" remote="yocto" revision="c62970fda82acf75035243766ecd195243e0f82a"/>
   <project name="meta-updater" path="layers/meta-updater" remote="uptane" revision="8e02177c2d9fa416f3117c5da1c0dfba7709dfbf"/>
   <project name="meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="beea119eb529b4a11f266004aee8b548427aea39"/>
   <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="9899177291cf6dbe1cd92d9ae25059bb9d9a1f0f"/>
-  <project name="meta-toradex-torizon" path="layers/meta-toradex-torizon" remote="toradex-torizon" revision="478c84ed5ea78b87bbe0e79c88aac6e8bf3c1c84">
+  <project name="meta-toradex-torizon" path="layers/meta-toradex-torizon" remote="torizon" revision="478c84ed5ea78b87bbe0e79c88aac6e8bf3c1c84">
     <linkfile dest="setup-environment" src="scripts/setup-environment"/>
   </project>
 </manifest>
