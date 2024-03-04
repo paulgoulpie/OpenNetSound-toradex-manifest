@@ -10,14 +10,14 @@
 
   <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="5ef3a0ffd3324937252790266e2b2e64d33ef34f" upstream="dunfell"/>
   <project name="meta-toradex-demos.git" path="layers/meta-toradex-demos" remote="tdx" revision="8ffadb517be04a0b19ef1f5d5299a8c581f87383" upstream="dunfell-5.x.y"/>
-  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="9899177291cf6dbe1cd92d9ae25059bb9d9a1f0f" upstream="dunfell-5.x.y"/>
-  <project dest-branch="dunfell-5.x.y" name="meta-toradex-tezi.git" path="layers/meta-toradex-tezi" remote="githt" revision="d2cdc6e816f0385c6be93d7a5af19c20165c6a8d" upstream="dunfell-5.x.y"/>
+  <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="7e5c07f6aafbbc315531afcc7f9e9a4dab4c6ca4" upstream="dunfell-5.x.y"/>
+  <project dest-branch="dunfell-5.x.y" name="meta-toradex-tezi.git" path="layers/meta-toradex-tezi" remote="githt" revision="c3698b453789a48413c3e27a3697a417555140b2" upstream="dunfell-5.x.y"/>
 
-  <project name="meta-toradex-somfctdut.git" path="layers/meta-toradex-somfctdut" remote="tdx-int" revision="aa8817c21739bdf34b501fbb21d4ef092bfc01a4" upstream="dunfell-5.x.y">
+  <project name="meta-toradex-somfctdut.git" path="layers/meta-toradex-somfctdut" remote="tdx-int" revision="8d38d4494a2ebb2b1823e63eda14167cb5c8dac9" upstream="dunfell-5.x.y">
     <copyfile dest="export_somfctdut" src="buildconf/export"/>
   </project>
 
-  <project name="meta-toradex-somfctcm.git" path="layers/meta-toradex-somfctcm" remote="tdx-int" revision="1ee5163ea44094639b81c12718600939486a491c" upstream="dunfell-5.x.y">
+  <project name="meta-toradex-somfctcm.git" path="layers/meta-toradex-somfctcm" remote="tdx-int" revision="fa9f95c3f62e6e3966cbc203f93a4502a2f5bc56" upstream="dunfell-5.x.y">
     <copyfile dest="export_somfctcm" src="buildconf/export"/>
   </project>
 </manifest>
