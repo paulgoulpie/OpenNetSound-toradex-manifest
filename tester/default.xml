@@ -9,7 +9,7 @@
   <remote alias="repo" fetch="https://github.com/toradex" name="githt"/>
   <remote alias="repo" fetch="https://gitlab.int.toradex.com/rd/testing/som-fct" name="tdx-int"/>
 
-  <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="fe0bf7f0e5408aac6cc89ff3b19b1b1941df4f64" upstream="kirkstone"/>
+  <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="644ebf220245bdc06e7696ccc90acc97a0dd2566" upstream="kirkstone"/>
   <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="749f9fc6c4ef45243fa649ce97a2e2cde254993a" upstream="kirkstone-6.x.y"/>
 
   <project name="meta-toradex-somfctdut.git" path="layers/meta-toradex-somfctdut" remote="tdx-int" revision="05de993dea541973d5610de03b7d1e23ed519bc4" upstream="kirkstone-6.x.y">
