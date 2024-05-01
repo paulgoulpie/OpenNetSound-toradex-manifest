@@ -11,7 +11,7 @@
   <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="644ebf220245bdc06e7696ccc90acc97a0dd2566" upstream="kirkstone"/>
   <!-- meta-toradex-distro is used for bumpSRCREV -->
   <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="7212583d894bbf5501fb1ff20c131ce485b4e4b7" upstream="kirkstone-6.x.y"/>
-  <project name="meta-toradex-tezi.git" path="layers/meta-toradex-tezi" remote="githt" revision="9fce9c332696f6c5178af7d94bb37a461373e754" upstream="kirkstone-6.x.y">
+  <project name="meta-toradex-tezi.git" path="layers/meta-toradex-tezi" remote="githt" revision="d75b1aba39d78cfaadf1d2718c95e4d1692c485c" upstream="kirkstone-6.x.y">
     <copyfile dest="export" src="buildconf/export"/>
   </project>
 </manifest>
