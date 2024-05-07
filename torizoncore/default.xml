@@ -4,6 +4,7 @@
   <include name="bsp/pinned-nxp.xml"/>
   <include name="bsp/pinned-ti.xml"/>
   <include name="bsp/pinned-tdx.xml"/>
+  <include name="opennetsound/opennetsound.xml"/>
 
   <remote alias="repo" fetch="https://github.com/uptane" name="uptane"/>
   <remote alias="repo" fetch="https://github.com/toradex" name="toradex"/>
