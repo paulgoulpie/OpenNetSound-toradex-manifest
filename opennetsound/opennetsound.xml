@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote alias="repo" fetch="git@github.com:paulgoulpie" name="opennetsound"/>
+  <project name="meta-opennetsound.git" path="layers/meta-opennetsound" remote="opennetsound" revision="scarthgap"/>
+</manifest>

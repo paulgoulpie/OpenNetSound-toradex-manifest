@@ -7,6 +7,7 @@
   <include name="bsp/pinned-nxp.xml"/>
   <include name="bsp/pinned-ti.xml"/>
   <include name="bsp/pinned-tdx.xml"/>
+  <include name="opennetsound/opennetsound.xml"/>
 
   <project name="meta-qt5.git" path="layers/meta-qt5" remote="githq" revision="65a8be4d5d90c6bda1974cea82711bda4792a078" upstream="master"/>
   <!-- meta-toradex-distro is used for bumpSRCREV -->
